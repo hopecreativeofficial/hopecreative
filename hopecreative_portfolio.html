@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HopeCreative - Capturing Moments</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">HopeCreative</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="text-center p-5 bg-dark text-white">
+    <h1>Welcome to HopeCreative</h1>
+    <p>Capturing Moments That Last a Lifetime</p>
+    <a href="#gallery" class="btn btn-primary">View Our Work</a>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery" class="p-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Our Gallery</h2>
+        <div class="row">
+            <!-- Wedding Gallery -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="wedding.jpg" class="card-img-top" alt="Wedding">
+                    <div class="card-body">
+                        <h5 class="card-title">Wedding</h5>
+                        <a href="#" class="btn btn-primary">View More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Ceremony Gallery -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="ceremony.jpg" class="card-img-top" alt="Ceremony">
+                    <div class="card-body">
+                        <h5 class="card-title">Ceremony</h5>
+                        <a href="#" class="btn btn-primary">View More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Engagement Gallery -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="engagement.jpg" class="card-img-top" alt="Engagement">
+                    <div class="card-body">
+                        <h5 class="card-title">Engagement</h5>
+                        <a href="#" class="btn btn-primary">View More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Highlights Gallery -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="highlight.jpg" class="card-img-top" alt="Highlight">
+                    <div class="card-body">
+                        <h5 class="card-title">Highlight</h5>
+                        <a href="#" class="btn btn-primary">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="bg-light p-5">
+    <div class="container">
+        <h2 class="text-center">About HopeCreative</h2>
+        <p class="text-center">HopeCreative is dedicated to capturing life's most precious moments. With years of experience in photography and videography, we bring creativity and passion to every project. Our goal is to make your memories last forever.</p>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="p-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Contact Us</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                <p class="mt-3">Or contact us directly at <strong>0782487331</strong> or <a href="mailto:byiringirofelix5@gmail.com">byiringirofelix5@gmail.com</a>.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center p-3 bg-dark text-white">
+    <p>© 2024 HopeCreative. All Rights Reserved.</p>
+    <p>Follow us on <a href="https://www.instagram.com/hopecreative_official" class="text-white">Instagram</a>.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
